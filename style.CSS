@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	background-color: steelblue;	
+	letter-spacing: 5px;
+	font-family: 'VT323', monospace;
+	margin:0;
+	padding:0;
+}
+
+p{
+	color: indianred;
+	/*	background-color*/
+	font-size:20px;
+ }
+
+img{
+	margin-top: 10px;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+img:hover {
+	height:500px;
+	transition:1s;
+}
+
+ul {
+	list-style-type: square;
+}
+
+/* DEFINE an ID by using # / ID just one single element */
+#ID{
+	border: 10px solid lemonchiffon;
+}
+
+/* DEFINE a Class by using . / Multiple elements can be in the same class */
+.CLASS{
+	padding:20px;
+	background-color: lightsteelblue;
+	border-top: 10px solid blue;
+	border-left: 10px dashed indianred;
+	borderright: 10px dashed green;
+	border-bottom: 10px solid snow;
+	border-raidus: 50px;
+/*	Overline / Underline / Line-through */
+/*	dotted / dashed / wavy */
+	text-decoration: underline overline red 5px;
+
+}
